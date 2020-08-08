@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" 
+        content= "width=device-width, initial-scale=1.0"></meta>
+        <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="footer, address, phone, icons" />
+ 
+	
+	
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+	<style>
+          {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+	background-color: #ecf8fe;
+}
+
+		.container
+		{
+			width:auto;
+			height:auto;
+			margin:0px;
+
+
+		}
+
+		.header
+		{
+			width:inherit;
+			background:#eeebec;
+			height:120px;
+			width: 100%;
+			padding: 0px 0px;
+			overflow: hidden;
+			position: fixed;
+			box-shadow:0 2px 3px 0 rgba(0,0,0,.1);
+			top: 0px;
+
+		}
+
+		.header .logo
+		{
+			height:inherit;
+			width:190px;
+			background:url("3.jpg");
+			background-size:100% 100%;
+			margin:0px 0px 0px 340px;
+			/*border:1px solid red;*/
+			float: left;
+		}
+		.header .navbar
+		{
+			float:left;
+			height:inherit;
+			width:900px;
+			/*border:1px solid yellow;*/
+			
+		}
+		.header .navbar p
+		{
+			text-align:right;
+		}
+
+		.header .navbar ul
+		{
+			list-style:none;
+			margin-left:200px;
+		}
+
+		.header .navbar ul li
+		{
+			float:left;
+		}
+
+		.header .navbar a
+		{
+			text-decoration:none;
+			color:white;
+			font-size:16px;
+			
+			display: block;
+			margin:25px 10px 25px 10px;
+			padding: 16px 20px;
+		}
+		.header .navbar a:hover{
+			color: white;
+			background-color: red;
+
+
+		}
+		.navbar a.active {
+ 
+  color: black;
+}
+.navbar a.active:hover {
+ background-color:#cccccc;
+color: #000;
+transition:0.6s all;
+}
+.section1
+{
+width:inherit;
+height:600px;
+background:#ecf8fe;
+text-align: center;
+padding: 0px 1px;
+width: 100%;
+}
+p{
+	text-align: center;
+}
+.aside2 img
+{
+
+height:600px;
+width:1100px;
+
+} 
+.section2
+{
+width:inherit;
+height:270px;
+width:100%;
+background:white;
+
+}
+.zoom{
+	transition: transform 0.5s;
+}
+.zoom:hover{
+transform: scale(1.2);
+}
+.main {
+	max-height: 550px;;
+	background-color: #292c2f;
+	color: white;
+	font-size: 38pt;
+	text-align: center;
+	line-height: 550px;
+}
+footer{
+	
+	bottom: 0;
+}
+.footer-distributed{
+	background-color: #4d00b2;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+ 
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+ 
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+ 
+.footer-distributed .footer-left{
+	width: 40%;
+}
+ 
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+ 
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+ 
+ 
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+ 
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+ 
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+ 
+.footer-distributed .footer-center{
+	width: 35%;
+}
+ 
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+ 
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+ 
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+ 
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+ 
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+ 
+.footer-distributed .footer-right{
+	width: 20%;
+}
+ 
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	
+	margin-bottom: 20px;
+}
+ 
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+ 
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+ 
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+ 
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+ 
+ 
+@media (max-width: 880px) {
+ 
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	
+	}
+ 
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+ 
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+	.main {
+		line-height: normal;
+		font-size: auto;
+	}
+ }
+
+
+
+
+</style></head>
+<body>
+	<div class="container">
+		<div class="header">
+			<div class="logo">
+
+			</div>
+			<div class="navbar">
+				
+				<ul>
+					<li><a class="active" href="index.html"><font color="red">HOME</font></a></li>
+					<li><a href="menu.html"><font color="gray">MENU</font></a></li>
+					<li><a href="about.html"><font color="gray">ABOUT</font></a></li>
+					<li><a href="map.html"><font color="gray">MAP</font></a></li>
+					<li><a href="contact.html"><font color="gray">CONTACT</font></a></li>
+					
+				</ul>
+		
+			</div></div>
+			<br><br><br><br><br><br><br><br>
+			<p align="center"><font size="5" color="deeppink"><u><b> SPECIAL DRINKS</b></u></font></p>
+<table border="2" align="center">
+	<tr>
+		<td colspan="3" align="center"><b>KFC</td>
+	</tr>
+	<tr>
+		<td colspan="3" align="center"><img src="d.jpg" width="800"></td>
+	</tr>	
+	<tr>
+		<td colspan="3" align="center"><b>LEMON</td>
+	</tr>
+	<tr>
+		<td class="zoom"><img src="d1.jpg" width="350" height="200"></td>
+		<td class="zoom"><img src="d2.jpg" width="350" height="200"></td>
+		<td class="zoom"><img src="d3.jpg" width="350" height="200"></td>
+	</tr>	
+	<tr>
+		<td colspan="3" align="center"><b>MANGO JUICE</td>
+	</tr>
+	<tr>
+		<td class="zoom"><img src="mango.jpg" width="350" height="200"></td>
+		<td class="zoom"><img src="mango1.jpg" width="350" height="200"></td>
+		<td class="zoom"><img src="mango2.jpg" width="350" height="200"></td>
+	</tr>	
+	<tr>
+		<td colspan="3" align="center"><b>Aampanna</td>
+	</tr>
+	<tr>
+		<td class="zoom"><img src="panna1.jpg" width="350" height="200"></td>		
+		<td class="zoom"><img src="aam1.jpg" width="350" height="200"></td>
+		<td class="zoom"><img src="aam.jpg" width="350" height="200"></td>
+	</tr>
+	<tr>
+		<td colspan="3" align="center"><b>APPLE JUICE</td>
+	</tr>
+	<tr>
+		<td class="zoom"><img src="apple.jpg" width="350" height="200"></td>		
+		<td class="zoom"><img src="apple1.jpg" width="350" height="200"></td>
+		<td class="zoom"><img src="apple2.jpg" width="350" height="200"></td>
+	</tr>	
+	
+</table>
+</b>
+<br><br><br><br>
+<footer class="footer-distributed">
+ 
+		<div class="footer-left">
+ 
+		<h3><span>Trick</span></h3>
+ 
+		<p class="footer-links">
+		<a href="#">Home</a>
+	·
+		<a href="#">Blog</a>
+	·
+		<a href="#">Pricing</a>
+	·
+		<a href="#">About</a>
+	·
+		<a href="#">Faq</a>
+	·
+		<a href="#">Contact</a>
+		</p>
+ 
+		
+		</div>
+ 
+		<div class="footer-center">
+ 
+		<div>
+		<i class="fa fa-map-marker"></i>
+		<p><span>xyz Rode abc City</span> Kolkata, West Bengal</p>
+		</div>
+ 
+		<div>
+		<i class="fa fa-phone"></i>
+		<p>+11 000 123456</p>
+		</div>
+ 
+		<div>
+		<i class="fa fa-envelope"></i>
+		<p><a href="mailto:support@company.com">contact@gmail.com</a></p>
+		</div>
+ 
+		</div>
+ 
+		<div class="footer-right">
+ 
+		<p class="footer-company-about">
+		<span>About </span>
+	Web Dev Trick is a blog for web designers, graphic designers, web developers.
+		</p>
+ 
+		<div class="footer-icons">
+ 
+		<a href="#"><i class="fa fa-facebook"></i></a>
+		<a href="#"><i class="fa fa-twitter"></i></a>
+		<a href="#"><i class="fa fa-linkedin"></i></a>
+		<a href="#"><i class="fa fa-github"></i></a>
+ 
+		</div>
+ 
+		</div>
+ <hr>
+ <center>
+		<p class="copyright"> Made by </i> Puja Adhikari</p></center>
+	</body>
+		</footer>
+ 
+ 
+</html>
+
+
+
+
+
+
+		
+		
